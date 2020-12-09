@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B8A08C25A224C7004A99DB /* Tiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B8A08225A224C7004A99DB /* Tiny.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B8A08D25A224C7004A99DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6AD1655258C8BA0007C7E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B8A08125A224C7004A99DB;
+			remoteInfo = Tiny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6AD165F258C8CE6007C7E4A /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		E6AD1660258C8CE6007C7E4A /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		E6AD1661258C8CE6007C7E4A /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		E6AD1662258C8CE6007C7E4A /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		E6AD1664258C8CF4007C7E4A /* macOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-Application.xcconfig"; sourceTree = "<group>"; };
+		E6AD1665258C8CF4007C7E4A /* macOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		E6AD1666258C8CF4007C7E4A /* macOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		E6AD1667258C8CF4007C7E4A /* macOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-Base.xcconfig"; sourceTree = "<group>"; };
+		E6AD1668258C8CF4007C7E4A /* macOS-XCTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-XCTest.xcconfig"; sourceTree = "<group>"; };
+		E6AD1669258C8CF4007C7E4A /* macOS-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		E6B8A08225A224C7004A99DB /* Tiny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tiny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B8A08B25A224C7004A99DB /* Tiny-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B8A0A925A249C8004A99DB /* test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		E6B8A0AA25A249C8004A99DB /* framework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = framework.plist; sourceTree = "<group>"; };
+		E6B8A0CA25A24C0D004A99DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E6B8A0CB25A24C0D004A99DB /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B8A08825A224C7004A99DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B8A08C25A224C7004A99DB /* Tiny.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6AD1654258C8BA0007C7E4A = {
+			isa = PBXGroup;
+			children = (
+				E6AD165C258C8C94007C7E4A /* accessory */,
+				E6B8A08325A224C7004A99DB /* product */,
+				E6B8A0C925A24BBE004A99DB /* source */,
+				E6B8A0CA25A24C0D004A99DB /* .gitignore */,
+				E6B8A0CB25A24C0D004A99DB /* .swiftlint.yml */,
+			);
+			sourceTree = "<group>";
+		};
+		E6AD165C258C8C94007C7E4A /* accessory */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD165D258C8C9D007C7E4A /* configuration */,
+				E6B8A0A825A249B8004A99DB /* info */,
+			);
+			path = accessory;
+			sourceTree = "<group>";
+		};
+		E6AD165D258C8C9D007C7E4A /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD165E258C8CE6007C7E4A /* Base */,
+				E6AD1663258C8CF4007C7E4A /* macOS */,
+			);
+			name = configuration;
+			sourceTree = "<group>";
+		};
+		E6AD165E258C8CE6007C7E4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD1660258C8CE6007C7E4A /* Debug.xcconfig */,
+				E6AD165F258C8CE6007C7E4A /* Profile.xcconfig */,
+				E6AD1661258C8CE6007C7E4A /* Release.xcconfig */,
+				E6AD1662258C8CE6007C7E4A /* Test.xcconfig */,
+			);
+			name = Base;
+			path = dependency/Git/xcconfigs/Base/Configurations;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6AD1663258C8CF4007C7E4A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD1664258C8CF4007C7E4A /* macOS-Application.xcconfig */,
+				E6AD1667258C8CF4007C7E4A /* macOS-Base.xcconfig */,
+				E6AD1669258C8CF4007C7E4A /* macOS-DynamicLibrary.xcconfig */,
+				E6AD1665258C8CF4007C7E4A /* macOS-Framework.xcconfig */,
+				E6AD1666258C8CF4007C7E4A /* macOS-StaticLibrary.xcconfig */,
+				E6AD1668258C8CF4007C7E4A /* macOS-XCTest.xcconfig */,
+			);
+			name = macOS;
+			path = dependency/Git/xcconfigs/macOS;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6B8A08325A224C7004A99DB /* product */ = {
+			isa = PBXGroup;
+			children = (
+				E6B8A08225A224C7004A99DB /* Tiny.framework */,
+				E6B8A08B25A224C7004A99DB /* Tiny-Test.xctest */,
+			);
+			name = product;
+			sourceTree = "<group>";
+		};
+		E6B8A0A825A249B8004A99DB /* info */ = {
+			isa = PBXGroup;
+			children = (
+				E6B8A0AA25A249C8004A99DB /* framework.plist */,
+				E6B8A0A925A249C8004A99DB /* test.plist */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		E6B8A0C925A24BBE004A99DB /* source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B8A08125A224C7004A99DB /* Tiny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B8A09825A224C7004A99DB /* Build configuration list for PBXNativeTarget "Tiny" */;
+			buildPhases = (
+				E6B8A07E25A224C7004A99DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tiny;
+			productName = Tiny;
+			productReference = E6B8A08225A224C7004A99DB /* Tiny.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6B8A08A25A224C7004A99DB /* Tiny-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B8A09925A224C7004A99DB /* Build configuration list for PBXNativeTarget "Tiny-Test" */;
+			buildPhases = (
+				E6B8A08725A224C7004A99DB /* Sources */,
+				E6B8A08825A224C7004A99DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B8A08E25A224C7004A99DB /* PBXTargetDependency */,
+			);
+			name = "Tiny-Test";
+			productName = TinyTests;
+			productReference = E6B8A08B25A224C7004A99DB /* Tiny-Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6AD1655258C8BA0007C7E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E6B8A08125A224C7004A99DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E6B8A08A25A224C7004A99DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E6AD1658258C8BA0007C7E4A /* Build configuration list for PBXProject "Tiny" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6AD1654258C8BA0007C7E4A;
+			productRefGroup = E6B8A08325A224C7004A99DB /* product */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B8A08125A224C7004A99DB /* Tiny */,
+				E6B8A08A25A224C7004A99DB /* Tiny-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B8A07E25A224C7004A99DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B8A08725A224C7004A99DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B8A08E25A224C7004A99DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B8A08125A224C7004A99DB /* Tiny */;
+			targetProxy = E6B8A08D25A224C7004A99DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6AD1659258C8BA0007C7E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD1660258C8CE6007C7E4A /* Debug.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
+				INFOPLIST_FILE = accessory/info;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swifteroid.tiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6AD165A258C8BA0007C7E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD1661258C8CE6007C7E4A /* Release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = accessory/info;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swifteroid.tiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E6B8A09425A224C7004A99DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD1665258C8CF4007C7E4A /* macOS-Framework.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(inherited)/framework.plist";
+			};
+			name = Debug;
+		};
+		E6B8A09525A224C7004A99DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD1665258C8CF4007C7E4A /* macOS-Framework.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(inherited)/framework.plist";
+			};
+			name = Release;
+		};
+		E6B8A09625A224C7004A99DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD1668258C8CF4007C7E4A /* macOS-XCTest.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(inherited)/test.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+			};
+			name = Debug;
+		};
+		E6B8A09725A224C7004A99DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD1668258C8CF4007C7E4A /* macOS-XCTest.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(inherited)/test.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6AD1658258C8BA0007C7E4A /* Build configuration list for PBXProject "Tiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AD1659258C8BA0007C7E4A /* Debug */,
+				E6AD165A258C8BA0007C7E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B8A09825A224C7004A99DB /* Build configuration list for PBXNativeTarget "Tiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B8A09425A224C7004A99DB /* Debug */,
+				E6B8A09525A224C7004A99DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B8A09925A224C7004A99DB /* Build configuration list for PBXNativeTarget "Tiny-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B8A09625A224C7004A99DB /* Debug */,
+				E6B8A09725A224C7004A99DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6AD1655258C8BA0007C7E4A /* Project object */;
+}
