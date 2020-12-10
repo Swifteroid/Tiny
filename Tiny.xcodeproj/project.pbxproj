@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17FD00A1A8730B917C696740 /* Test.NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD02B0C7FB91482D657EB7 /* Test.NSFileManager.swift */; };
+		17FD00DED6311A90AD3263FC /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0BDC807B039F4E7251CE /* NSView.swift */; };
 		17FD02CC05C7210E4645CBC8 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0B92059D242C03431E33 /* NSFileManager.swift */; };
 		17FD03D1CC2ABAEECA8B4B5E /* NSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD04FF303649464A2C23EB /* NSFoundation.swift */; };
 		17FD0405DAD110175294E108 /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0B88858ED430D4A0213A /* NSBundle.swift */; };
@@ -41,6 +42,7 @@
 		17FD0B38C6962FF8A0E870A0 /* NSTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimer.swift; sourceTree = "<group>"; };
 		17FD0B88858ED430D4A0213A /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
 		17FD0B92059D242C03431E33 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
+		17FD0BDC807B039F4E7251CE /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		17FD0F61576291EBC317D334 /* NSDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateFormatter.swift; sourceTree = "<group>"; };
 		E6AD165F258C8CE6007C7E4A /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
 		E6AD1660258C8CE6007C7E4A /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 				17FD0B207C5CEB201F3D5A23 /* Test.Swift.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		17FD074D1F34904137F833C7 /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				17FD0BDC807B039F4E7251CE /* NSView.swift */,
+			);
+			path = AppKit;
 			sourceTree = "<group>";
 		};
 		E6AD1654258C8BA0007C7E4A = {
@@ -179,6 +189,7 @@
 		E6B8A0C925A24BBE004A99DB /* source */ = {
 			isa = PBXGroup;
 			children = (
+				17FD074D1F34904137F833C7 /* AppKit */,
 				17FD001854DBE33C99A1E319 /* Foundation */,
 				17FD05602C88A2BC183793D1 /* Swift */,
 				E6B8A11F25A37239004A99DB /* Test */,
@@ -287,6 +298,7 @@
 				17FD060A0DD6824B2EDFE764 /* NSUserDefaults.swift in Sources */,
 				17FD05E746C71DCE6E0C15B8 /* NSTimer.swift in Sources */,
 				17FD0EA2E1990DFEB76511F8 /* Swift.swift in Sources */,
+				17FD00DED6311A90AD3263FC /* NSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
