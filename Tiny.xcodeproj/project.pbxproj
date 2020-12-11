@@ -10,13 +10,21 @@
 		17FD00A1A8730B917C696740 /* Test.NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD02B0C7FB91482D657EB7 /* Test.NSFileManager.swift */; };
 		17FD00DED6311A90AD3263FC /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0BDC807B039F4E7251CE /* NSView.swift */; };
 		17FD02CC05C7210E4645CBC8 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0B92059D242C03431E33 /* NSFileManager.swift */; };
+		17FD0373945394798BBF3188 /* Test.CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD00EAB99594BD151A273A /* Test.CGSize.swift */; };
 		17FD03D1CC2ABAEECA8B4B5E /* NSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD04FF303649464A2C23EB /* NSFoundation.swift */; };
 		17FD0405DAD110175294E108 /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0B88858ED430D4A0213A /* NSBundle.swift */; };
+		17FD04A0E3852EFF1AFDA539 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD05DAA9878619564C732B /* CGPoint.swift */; };
+		17FD04A2E3D69275D31B7F59 /* Test.CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD04F4C6B6298E0F9AE62F /* Test.CGImage.swift */; };
 		17FD04BFA37374E54D4C8CA5 /* NSEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD08FED0549606ECE29F8A /* NSEdgeInsets.swift */; };
 		17FD05E746C71DCE6E0C15B8 /* NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0B38C6962FF8A0E870A0 /* NSTimer.swift */; };
 		17FD060A0DD6824B2EDFE764 /* NSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD04184E40B04E010C0CDB /* NSUserDefaults.swift */; };
+		17FD06A7C8B22A6F0EFB21CF /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0BF6CF0FF8D4C9DA3781 /* CGRect.swift */; };
 		17FD0968FC692EAA58C4EF09 /* Test.NSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B8A12125A37239004A99DB /* Test.NSUserDefaults.swift */; };
+		17FD0A2A286C89E1E0424EF2 /* Test.CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0F73082BA8D0C1EDAD8B /* Test.CGPoint.swift */; };
 		17FD0D265AB9B217632466F2 /* Test.Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0B207C5CEB201F3D5A23 /* Test.Swift.swift */; };
+		17FD0D4E2B3E11D81DF5E33B /* Test.CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0C00A62F59E87B5EA9EA /* Test.CGRect.swift */; };
+		17FD0D72633B57101C938E9C /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0389FC78FE1FF978E2C9 /* CGSize.swift */; };
+		17FD0DA6F30CE2B789D8B07D /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0A29B6632B4D7CBA9282 /* CGImage.swift */; };
 		17FD0EA2E1990DFEB76511F8 /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD03A269D4A29BCDDC9E11 /* Swift.swift */; };
 		17FD0F66A4AF7A1B6CFA445E /* NSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD0F61576291EBC317D334 /* NSDateFormatter.swift */; };
 		E6B8A08C25A224C7004A99DB /* Tiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B8A08225A224C7004A99DB /* Tiny.framework */; };
@@ -33,17 +41,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17FD00EAB99594BD151A273A /* Test.CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.CGSize.swift; sourceTree = "<group>"; };
 		17FD02B0C7FB91482D657EB7 /* Test.NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.NSFileManager.swift; sourceTree = "<group>"; };
+		17FD0389FC78FE1FF978E2C9 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 		17FD03A269D4A29BCDDC9E11 /* Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
 		17FD04184E40B04E010C0CDB /* NSUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaults.swift; sourceTree = "<group>"; };
+		17FD04F4C6B6298E0F9AE62F /* Test.CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.CGImage.swift; sourceTree = "<group>"; };
 		17FD04FF303649464A2C23EB /* NSFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFoundation.swift; sourceTree = "<group>"; };
+		17FD05DAA9878619564C732B /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 		17FD08FED0549606ECE29F8A /* NSEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSEdgeInsets.swift; sourceTree = "<group>"; };
+		17FD0A29B6632B4D7CBA9282 /* CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImage.swift; sourceTree = "<group>"; };
 		17FD0B207C5CEB201F3D5A23 /* Test.Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Swift.swift; sourceTree = "<group>"; };
 		17FD0B38C6962FF8A0E870A0 /* NSTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimer.swift; sourceTree = "<group>"; };
 		17FD0B88858ED430D4A0213A /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
 		17FD0B92059D242C03431E33 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
 		17FD0BDC807B039F4E7251CE /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		17FD0BF6CF0FF8D4C9DA3781 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		17FD0C00A62F59E87B5EA9EA /* Test.CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.CGRect.swift; sourceTree = "<group>"; };
 		17FD0F61576291EBC317D334 /* NSDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateFormatter.swift; sourceTree = "<group>"; };
+		17FD0F73082BA8D0C1EDAD8B /* Test.CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.CGPoint.swift; sourceTree = "<group>"; };
 		E6AD165F258C8CE6007C7E4A /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
 		E6AD1660258C8CE6007C7E4A /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		E6AD1661258C8CE6007C7E4A /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -111,6 +127,28 @@
 				17FD0BDC807B039F4E7251CE /* NSView.swift */,
 			);
 			path = AppKit;
+			sourceTree = "<group>";
+		};
+		17FD08016C62566B7899B2DB /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				17FD04F4C6B6298E0F9AE62F /* Test.CGImage.swift */,
+				17FD0F73082BA8D0C1EDAD8B /* Test.CGPoint.swift */,
+				17FD0C00A62F59E87B5EA9EA /* Test.CGRect.swift */,
+				17FD00EAB99594BD151A273A /* Test.CGSize.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		17FD0C82DA7C1332A364AD40 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				17FD0A29B6632B4D7CBA9282 /* CGImage.swift */,
+				17FD05DAA9878619564C732B /* CGPoint.swift */,
+				17FD0BF6CF0FF8D4C9DA3781 /* CGRect.swift */,
+				17FD0389FC78FE1FF978E2C9 /* CGSize.swift */,
+			);
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
 		E6AD1654258C8BA0007C7E4A = {
@@ -190,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				17FD074D1F34904137F833C7 /* AppKit */,
+				17FD0C82DA7C1332A364AD40 /* CoreGraphics */,
 				17FD001854DBE33C99A1E319 /* Foundation */,
 				17FD05602C88A2BC183793D1 /* Swift */,
 				E6B8A11F25A37239004A99DB /* Test */,
@@ -200,6 +239,7 @@
 		E6B8A11F25A37239004A99DB /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				17FD08016C62566B7899B2DB /* CoreGraphics */,
 				E6B8A12025A37239004A99DB /* Foundation */,
 				17FD071E3235F781E126CB33 /* Swift */,
 			);
@@ -299,6 +339,10 @@
 				17FD05E746C71DCE6E0C15B8 /* NSTimer.swift in Sources */,
 				17FD0EA2E1990DFEB76511F8 /* Swift.swift in Sources */,
 				17FD00DED6311A90AD3263FC /* NSView.swift in Sources */,
+				17FD06A7C8B22A6F0EFB21CF /* CGRect.swift in Sources */,
+				17FD0D72633B57101C938E9C /* CGSize.swift in Sources */,
+				17FD0DA6F30CE2B789D8B07D /* CGImage.swift in Sources */,
+				17FD04A0E3852EFF1AFDA539 /* CGPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +353,10 @@
 				17FD00A1A8730B917C696740 /* Test.NSFileManager.swift in Sources */,
 				17FD0968FC692EAA58C4EF09 /* Test.NSUserDefaults.swift in Sources */,
 				17FD0D265AB9B217632466F2 /* Test.Swift.swift in Sources */,
+				17FD0D4E2B3E11D81DF5E33B /* Test.CGRect.swift in Sources */,
+				17FD0373945394798BBF3188 /* Test.CGSize.swift in Sources */,
+				17FD04A2E3D69275D31B7F59 /* Test.CGImage.swift in Sources */,
+				17FD0A2A286C89E1E0424EF2 /* Test.CGPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
