@@ -53,6 +53,7 @@
 		17FD0A29B6632B4D7CBA9282 /* CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImage.swift; sourceTree = "<group>"; };
 		17FD0B207C5CEB201F3D5A23 /* Test.Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Swift.swift; sourceTree = "<group>"; };
 		17FD0B38C6962FF8A0E870A0 /* NSTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimer.swift; sourceTree = "<group>"; };
+		17FD0B6D7DD4FC898F82DB95 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17FD0B88858ED430D4A0213A /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
 		17FD0B92059D242C03431E33 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
 		17FD0BDC807B039F4E7251CE /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 				E6B8A0C925A24BBE004A99DB /* source */,
 				E6B8A0CA25A24C0D004A99DB /* .gitignore */,
 				E6B8A0CB25A24C0D004A99DB /* .swiftlint.yml */,
+				17FD0B6D7DD4FC898F82DB95 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
