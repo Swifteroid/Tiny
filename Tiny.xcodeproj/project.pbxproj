@@ -59,6 +59,7 @@
 		17FD0BDC807B039F4E7251CE /* NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		17FD0BF6CF0FF8D4C9DA3781 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		17FD0C00A62F59E87B5EA9EA /* Test.CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.CGRect.swift; sourceTree = "<group>"; };
+		17FD0C6F8AF4FA572B18EBED /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		17FD0F61576291EBC317D334 /* NSDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateFormatter.swift; sourceTree = "<group>"; };
 		17FD0F73082BA8D0C1EDAD8B /* Test.CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.CGPoint.swift; sourceTree = "<group>"; };
 		E6AD165F258C8CE6007C7E4A /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 				E6B8A0C925A24BBE004A99DB /* source */,
 				E6B8A0CA25A24C0D004A99DB /* .gitignore */,
 				E6B8A0CB25A24C0D004A99DB /* .swiftlint.yml */,
+				17FD0C6F8AF4FA572B18EBED /* Package.swift */,
 				17FD0B6D7DD4FC898F82DB95 /* README.md */,
 			);
 			sourceTree = "<group>";

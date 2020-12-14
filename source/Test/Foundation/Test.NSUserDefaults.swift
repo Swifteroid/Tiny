@@ -27,7 +27,7 @@ internal class DictionaryExtensionSpec: QuickSpec {
 internal class UserDefaultsExtensionSpec: QuickSpec {
     override internal func spec() {
         it("can be accessed using KeyPath struct") {
-            let suiteName: String = Bundle(for: type(of: self)).bundleIdentifier!
+            let suiteName: String = Bundle(for: type(of: self)).bundleIdentifier ?? "com.swifteroid.tiny"
             let userDefaults: UserDefaults = UserDefaults(suiteName: suiteName)!
             userDefaults.removePersistentDomain(forName: suiteName)
 
