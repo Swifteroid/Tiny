@@ -396,6 +396,7 @@
 			baseConfigurationReference = E6AD1660258C8CE6007C7E4A /* Debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = accessory/info;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifteroid.tiny;
@@ -409,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6AD1661258C8CE6007C7E4A /* Release.xcconfig */;
 			buildSettings = {
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = accessory/info;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifteroid.tiny;
