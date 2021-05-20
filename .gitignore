@@ -18,6 +18,3 @@
 
 # Swift
 /.build
-
-# Carthage
-/Carthage/*
