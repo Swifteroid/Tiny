@@ -90,9 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B8A08C25A224C7004A99DB /* Tiny.framework in Frameworks */,
 				E6FA8A93267D0C2000F0C878 /* Quick in Frameworks */,
 				E6FA8A90267D0BE900F0C878 /* Nimble in Frameworks */,
+				E6B8A08C25A224C7004A99DB /* Tiny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +425,7 @@
 			baseConfigurationReference = E6AD1665258C8CF4007C7E4A /* macOS-Framework.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "$(inherited)/framework.plist";
+				MACH_O_TYPE = staticlib;
 			};
 			name = Debug;
 		};
@@ -433,6 +434,7 @@
 			baseConfigurationReference = E6AD1665258C8CF4007C7E4A /* macOS-Framework.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "$(inherited)/framework.plist";
+				MACH_O_TYPE = staticlib;
 			};
 			name = Release;
 		};
@@ -441,10 +443,6 @@
 			baseConfigurationReference = E6AD1668258C8CF4007C7E4A /* macOS-XCTest.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "$(inherited)/test.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS)",
-				);
 			};
 			name = Debug;
 		};
@@ -453,10 +451,6 @@
 			baseConfigurationReference = E6AD1668258C8CF4007C7E4A /* macOS-XCTest.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "$(inherited)/test.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS)",
-				);
 			};
 			name = Release;
 		};
@@ -498,7 +492,7 @@
 			repositoryURL = "https://github.com/Quick/Nimble.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.2.0;
+				minimumVersion = 10.0.0;
 			};
 		};
 		E6FA8A91267D0C2000F0C878 /* XCRemoteSwiftPackageReference "Quick" */ = {
@@ -506,7 +500,7 @@
 			repositoryURL = "https://github.com/Quick/Quick.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
