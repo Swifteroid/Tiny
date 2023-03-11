@@ -4,13 +4,13 @@ import PackageDescription
 let package = Package(
     name: "Tiny",
     platforms: [
-        .macOS(.v10_10)
+        .macOS(.v10_13)
     ],
     products: [
         .library(name: "Tiny", targets: ["Tiny"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Nimble.git", from: "10.0.0"),
+        .package(url: "https://github.com/Quick/Nimble.git", from: "11.0.0"),
         .package(url: "https://github.com/Quick/Quick.git", from: "5.0.0"),
     ],
     targets: [
